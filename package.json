@@ -1,0 +1,13 @@
+{
+	"scripts": {
+		"build": "pnpx vite-node ./src/main.ts"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/node": "^22.13.17",
+		"typescript": "^5.8.2"
+	},
+	"dependencies": {
+		"sharp": "^0.33.5"
+	}
+}
