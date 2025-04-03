@@ -2,5 +2,5 @@
 
 A tool to generate image tiles for leaflet map project.
 ```sh
-pnpx build -- assets/image.png
+pnpm build -- assets/image.png
 ```
