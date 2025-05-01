@@ -3,7 +3,7 @@ import path from "node:path";
 import sharp from "sharp";
 
 const inputImage = process.argv[2];
-const outputDir = "tiles";
+const outputDir = process.argv[3] ?? "tiles";
 const tileSize = 256; // Leafletの標準サイズ
 
 // 画像を読み込み
